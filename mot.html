@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<title>กระทรวงคมนาคม</title>
+<style>
+body {
+font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  transition: .5s;
+}
+
+content{
+	margin-left: auto;
+	margin-right: auto;
+    transition: .5s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  transition: .5s;
+    border-bottom: 2px solid #00000014;
+}
+
+li {
+  float: left;
+  transition: .5s;
+    border-bottom: 2px solid #00000000;
+}
+li:hover{
+    border-bottom: 2px solid #941f20;
+}
+li a {
+  display: block;
+  color: #941f20;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: .5s;
+}
+
+
+@media (min-width: 760px){
+	.header img {
+    	width: auto;
+        height: 100px;
+        transition: .5s;
+    }
+}
+@media (max-width: 800px){
+	ul li a {
+    	font-size: 18px;
+        transition: .5s;
+    }
+}
+@media (max-width: 590px){
+	ul li a {
+    	font-size: 14px;
+        transition: .5s;
+    }
+}
+@media (max-width: 500px){
+	
+	ul li a {
+    	font-size: 10px;
+        transition: .5s;
+    }
+}
+@media (max-width: 400px){
+	
+	ul li a {
+    	font-size: 8px;
+        transition: .5s;
+    }
+}
+@media (max-width: 360px){
+	
+	ul li a {
+    	font-size: 6px;
+  		padding: 7px 8px;
+        transition: .5s;
+    }
+}
+@media (max-width: 235px){
+	
+	ul li a {
+    	font-size: 4px;
+  		padding: 7px 8px;
+        transition: .5s;
+    }
+}
+@media (max-width: 191px){
+	li{float: none;display:none;}
+	ul li a {
+  		padding: 7px 8px;
+        transition: .5s;
+    }
+}
+</style>
+<style>
+/*  LOADER  */
+.css-1ltj605 {
+    height: 100vh;
+    display: flex;
+          position: fixed;
+          inset: 0px;
+          background: rgb(255, 255, 255);
+          z-index: 99999;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+          transition: opacity 0.75s, visibility 0.75s;
+      }
+.css-1ltj605-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+      
+.css-nvmvi3 *, .css-nvmvi3 *::before, .css-nvmvi3 *::after {
+          box-sizing: inherit;
+      }
+      .css-z01bqi {
+          display: inline-block;
+          color: rgb(148, 31, 32);
+          animation: 1.4s linear 0s infinite normal none running animation-61bdi0;
+      }
+      .css-nvmvi3 *, .css-nvmvi3 *::before, .css-nvmvi3 *::after {
+          box-sizing: inherit;
+      }
+      @keyframes animation-61bdi0{
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+        }
+      .css-13o7eu2 {
+          display: block;
+      }
+      .css-nvmvi3 *, .css-nvmvi3 *::before, .css-nvmvi3 *::after {
+          box-sizing: inherit;
+      }
+      .css-14891ef {
+          stroke: currentcolor;
+          stroke-dasharray: 80px, 200px;
+          stroke-dashoffset: 0;
+          animation: 1.4s ease-in-out 0s infinite normal none running animation-1p2h4ri;
+      }
+      
+      .css-nvmvi3 *, .css-nvmvi3 *::before, .css-nvmvi3 *::after {
+          box-sizing: inherit;
+      }
+      
+      @keyframes nimation-1p2h4ri{
+      0% {
+          stroke-dasharray: 1px, 200px;
+          stroke-dashoffset: 0;
+      }
+      50% {
+          stroke-dasharray: 100px, 200px;
+          stroke-dashoffset: -15px;
+      }
+      100% {
+          stroke-dasharray: 100px, 200px;
+          stroke-dashoffset: -125px;
+      }
+      }
+
+</style>
+<script>
+    window.addEventListener("load", () => {
+        const loader = document.querySelector(".css-1ltj605");
+
+        loader.classList.add("css-1ltj605-hidden");
+
+        loader.addEventListener("transitionend", () => {
+            document.body.removeChild("loader");
+        })
+    })
+
+</script>
+</head>
+<body>
+    <div class="MuiBox-root css-1ltj605 loader" id=""><span class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-z01bqi" role="progressbar" style="width: 100px; height: 100px;"><svg class="MuiCircularProgress-svg css-13o7eu2" viewBox="22 22 44 44"><circle class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-14891ef" cx="44" cy="44" r="20.2" fill="none" stroke-width="3.6"></circle></svg></span></div>
+
+<div class="header">
+<center>
+	<img src="https://i.ibb.co/sKwHbPX/2.png" width="50%">
+</center>
+</div>
+
+<ul>
+  <li><a href="#home">หน้าหลัก</a></li>
+  <li><a href="#news">เกี่ยวกับกระทรวง</a></li>
+  <li><a href="#contact">นโยบาย</a></li>
+  <li><a href="#public-service">บริการประชาชน</a></li>
+  <li><a href="#faq">FAQ</a></li>
+</ul>
+<video style="object-fit: cover; background-size: cover; opacity: 1; height: auto; width: 100%; display: block;" class loop preload="auto" autoplay>
+    <source src="https://www.exat.co.th/wp-content/uploads/2020/10/exat-video-resize.mp4" type="video/mp4">
+  </video>
+<content>
+
+<h3>Sticky Navigation Bar Example</h3>
+<p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
+<p><strong>Note:</strong> Internet Explorer do not support sticky positioning and Safari requires a -webkit- prefix.</p>
+<p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</content>
+</body>
+</html>
+
+
